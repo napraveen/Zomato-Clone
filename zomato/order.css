@@ -1,0 +1,44 @@
+.container
+{
+    height: 42vh;
+    width: 60vw;
+    margin-top: 0px;
+    margin-left: 200px;
+    border-radius: 15px;
+    display: flex;
+}
+
+.online
+{
+    height: 230px;
+    width:50%;
+    margin-right: 100px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.167);
+}
+.online:hover,.dining:hover{
+    background-color: rgb(227, 227, 227);
+}
+img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.dining
+{
+    height: 230px;
+    width: 50%  ;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.167);
+}
+
+.title
+{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.para
+{
+    margin-top: -10px;
+    margin-left: 10px;
+}
